@@ -1,0 +1,4 @@
+Using thirty years of ocean buoy telemetry, we document measurable shifts in
+current patterns within the North Atlantic subtropical gyre. These shifts
+correlate with changes in wind stress and surface temperature gradients
+across the basin.

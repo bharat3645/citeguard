@@ -1,0 +1,6 @@
+This paper analyzes global temperature records from 1880 to 2020. We find
+that average surface temperatures have risen by approximately 1.1 degrees
+Celsius relative to the pre-industrial baseline. The dominant driver of this
+warming trend is anthropogenic greenhouse gas emissions, particularly carbon
+dioxide and methane released from fossil fuel combustion and industrial
+activity.
