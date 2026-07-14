@@ -1,0 +1,6 @@
+scikit-learn>=1.0
+numpy>=1.20
+pytest>=7.0
+# Optional: only needed if you want explain_flag() to call the real
+# Anthropic API instead of the deterministic offline templated explanation.
+# anthropic>=0.25

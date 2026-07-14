@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "citeguard"
+version = "0.1.0"
+description = "Offline citation-claim support verifier: flags citations that may not actually support the claim they're attached to."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "Bharat Singh Parihar" }]
+dependencies = [
+    "scikit-learn>=1.0",
+    "numpy>=1.20",
+]
+
+[project.optional-dependencies]
+llm = ["anthropic>=0.25"]
+dev = ["pytest>=7.0"]
+
+[project.scripts]
+citeguard = "citeguard.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["citeguard*"]
